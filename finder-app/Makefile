@@ -24,7 +24,7 @@ $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(TARGET) $(OBJ)
 
 # Help target to show usage
 help:
